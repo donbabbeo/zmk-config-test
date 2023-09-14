@@ -22,11 +22,11 @@
             // 52                        |ESC LW |  CMD  |ALT SPC|SPC LW |  |ENTR LW|ALT SPC|  CTRL |   \   |                         59
 
             bindings = <
-&kp GRAVE           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                              &kp NUMBER_6         &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
-&kp LEFT_BRACKET    &kp Q         &kp W         &kp E         &kp R             &kp T                                     &kp Y                &kp U         &kp I          &kp O         &kp P         &kp RIGHT_BRACKET
-&mt LEFT_SHIFT TAB  &kp A         &kp S         &kp D         &kp F             &kp G           &none        &none        &kp H                &kp J         &kp K          &kp L         &kp SEMI      &kp SINGLE_QUOTE
-&kp LCTRL           &kp Z         &kp X         &kp C         &kp V             &kp B           &kp MINUS    &kp EQUAL    &kp N                &kp M         &kp COMMA      &kp DOT       &kp FSLH      &kp RSHFT
-                                                &lt 1 ESC     &kp LEFT_COMMAND  &mt LALT SPACE  &lt 1 SPACE  &lt 1 ENTER  &mt RIGHT_ALT SPACE  &kp RCTRL     &kp BACKSLASH
+&kp GRAVE           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                            &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &kp BACKSPACE
+&kp LEFT_BRACKET    &kp Q         &kp W         &kp E         &kp R             &kp T                                   &kp Y         &kp U         &kp I          &kp O         &kp P         &kp RIGHT_BRACKET
+&mt LEFT_SHIFT TAB  &kp A         &kp S         &kp D         &kp F             &kp G         &none        &none        &kp H         &kp J         &kp K          &kp L         &kp SEMI      &kp SINGLE_QUOTE
+&kp LCTRL           &kp Z         &kp X         &kp C         &kp V             &kp B         &kp MINUS    &kp EQUAL    &kp N         &kp M         &kp COMMA      &kp DOT       &kp FSLH      &kp RSHFT
+                                                &kp ESC       &kp LEFT_COMMAND  &kp LALT      &lt 1 SPACE  &lt 1 ENTER  &kp RALT      &kp RCTRL     &kp BACKSLASH
             >;
         };
 
@@ -43,7 +43,7 @@
 &none    &kp HOME  &kp UP    &kp END    &none   &none                     &kp HOME  &kp END   &kp INS  &none      &none    &none
 &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none   &none    &none    &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &none    &none
 &trans   &none     &none     &none      &none   &none   &kp F11  &kp F12  &none     &none     &none    &none      &none    &trans
-                             &trans     &mo 2   &trans  &trans   &trans   &trans    &trans    &mo 2
+                             &tog 1     &mo 2   &trans  &trans   &trans   &trans    &trans    &mo 2
             >;
         };
 
